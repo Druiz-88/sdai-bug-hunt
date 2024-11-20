@@ -1,38 +1,68 @@
+/* style.css */
 body {
+  background-color: #0a1f44; /* Dark Blue Background */
+  color: #fafafa; /* Light text for high contrast */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #282c34;
-  color: white;
   text-align: center;
   padding: 20px;
+  background-color: #102a56; /* Slightly lighter dark blue for header */
+  color: #ffffff; /* White text */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
 }
 
 main {
   padding: 20px;
+  text-align: center;
 }
 
 img {
   max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.atma-semibold {
+  font-family: "Atma", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+li {
+  font-size: 1.2em;
+  margin: 5px 0;
 }
 
 button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #61dafb;
+  background-color: #204b78; /* Slightly lighter blue for button */
+  color: #ffffff; /* White text */
   border: none;
-  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #21a1f1;
+  background-color: #366aa8; /* Brighter blue for hover effect */
+}
+
+#funFact {
+  margin-top: 20px;
+  font-style: italic;
+  color: #e0e0e0; /* Slightly softer light gray text */
+}
+
+ul {
+  list-style-type: none; /* Removes default bullets */
+  padding-left: 0; /* Removes indentation */
 }
